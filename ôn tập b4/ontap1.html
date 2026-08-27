@@ -1,0 +1,121 @@
+<html>
+
+<head>
+    <title> Ôn tập </title>
+</head>
+
+<body>
+    <h1>Ôn tập</h1>
+    <div>
+        <form>
+            <div>
+                <p><b>Họ và tên:</b></p>
+                <input type="text" name="hoVaTen">
+            </div>
+            <div>
+                <p><b>Giới thiệu:</b></p>
+                <textarea name="gioiThieu"></textarea>
+            </div>
+            <div>
+                <p><b>Email:</b></p>
+                <input type="email" name="email" placeholder="abc@gmail.com">
+            </div>
+            <div>
+                <p><b>Số điện thoại:</b></p>
+                <input type="tel" name="soDienThoai" placeholder="Dạng số 123" required pattern="([+84]{1}([0-9]{9}))">
+            </div>
+            <div>
+                <p><b>Giới tính:</b></p>
+                <input type="radio" name="gioiTinh" value="male">Nam
+                <br>
+                <input type="radio" name="gioiTinh" value="female">Nữ
+            </div>
+            <div>
+                <p><b>Sở thích:</b></p>
+                <input type="checkbox" name="soThich" value="game">Game
+                <br>
+                <input type="checkbox" name="soThich" value="music">Music
+                <br>
+                <input type="checkbox" name="soThich" value="sport">Sport
+                <br>
+                <input type="checkbox" name="soThich" value="reading book">Reading book
+                <br>
+                <input type="checkbox" name="soThich" value="paint">Paint
+            </div>
+            <div>
+                <p><b>Các trình duyệt hay dùng:</b></p>
+                <input list="browsers">
+                <datalist id="browsers">
+                    <option value="Cốc cốc">Cốc cốc</option>
+                    <br>
+                    <option value="Google">Google</option>
+                    <br>
+                    <option value="Safari">Safari</option>
+                    <br>
+                    <option value="Firefox">Firefox</option>
+                    <br>
+                    <option value="Chrome">Chrome</option>
+                    <br>
+                    <option value="Internet Explorer">Internet Explorer</option>
+                </datalist>
+                <select name="browsers">
+                    <option value="Cốc cốc">Cốc cốc</option>
+                    <br>
+                    <option value="Google">Google</option>
+                    <br>
+                    <option value="Safari">Safari</option>
+                    <br>
+                    <option value="Firefox">Firefox</option>
+                    <br>
+                    <option value="Chrome">Chrome</option>
+                    <br>
+                    <option value="Internet Explorer">Internet Explorer</option>
+                </select>
+            </div>
+            <div>
+                0<input type="range" id="a" value="50">100
+                <br>
+                0<input type="range" id="a" value="30">100
+            </div>
+            <div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/MvVuJl0Pxd0?si=N5p05uH8DwpclVjn"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
+            <div>
+                <input type="Submit">
+                <br>
+                <button>click</button>
+                <br>
+                <button>click</button>
+                <br>
+                <button>Đăng kí</button>
+                <br>
+                <input type="Reset">
+            </div>
+            <div>
+                <marquee>
+                    <b>
+                        <font size="20" color="pink">Nguyễn Thị Nhung</font>
+                    </b>
+                    <br>
+                    <img src="../anh/anhnen.jpg" type="anh/jpg">
+                </marquee>
+            </div>
+            <div>
+                <audio controls>
+                    <source src="../anh/amthanh.mp3" type="audio/mp3">
+                </audio>
+            </div>
+            <div>
+                <video controls>
+                    <source src="../anh/video.mp4" type="video/mp4">
+                </video>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
